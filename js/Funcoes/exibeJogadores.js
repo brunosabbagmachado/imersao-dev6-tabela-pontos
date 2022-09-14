@@ -1,12 +1,4 @@
-var rafa = { nome: 'Rafa', vitorias: 0, empates: 0, derrotas: 0, pontos: 0 };
-var paulo = { nome: 'Paulo', vitorias: 0, empates: 0, derrotas: 0, pontos: 0 };
-var gui = { nome: 'Gui', vitorias: 0, empates: 0, derrotas: 0, pontos: 0 };
-
-var jogadores = [rafa, paulo, gui];
-
-exiberJogadoresNaTela(jogadores);
-
-function exiberJogadoresNaTela(jogadores) {
+export function exiberJogadoresNaTela(jogadores) {
     var tabela = document.querySelector('#tabelaJogadores');
     var elemento = '';
 
